@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    width: 80%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    height: 100vh;
+    padding: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template:
+        "rtc pro" 
+        "rtc form" 
+            
+}
+
+.rightcontent{
+    width: 100%;
+    padding: 2em;
+    padding-left: 50px;
+    color: #fff;
+    grid-area: rtc ;
+}
+
+.rightcontent, h1{
+    font-family: "Poppins" sans-serif;
+        font-weight: 600;
+}
+
+.rightcontent, p{
+    font-family: "Poppins" sans-serif;
+        font-weight: 500;
+}
+
+.promo{
+    font-family: "Poppins" sans-serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 95%);
+    background-color:  hsl(249, 10%, 26%);
+    text-align: center;
+    grid-area: pro;
+}
+
+.form {
+    font-family: "Poppins" sans-serif;
+    font-weight: 400;
+    width: 100%;
+    margin: 70px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 50px;
+    justify-content: right;
+    display: grid;
+    grid-area: form;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.button {
+    border: none;
+    padding: 15px 35px;
+    margin: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Poppins" sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: hsl(154, 59%, 51%)
+}
